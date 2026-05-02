@@ -29,3 +29,9 @@ Short answers:
 5. Versions: Latest stable available in the sandbox — no pinned versions. Just install and go.
 Now build it. Start with the notebook.
 OR You can use VS Code Environment to run this!!!
+
+
+4. User: I can't see that over my github or Vs code ide??
+5. User: try again
+6. User: Now I have the complete picture. Every number, every output, every gap. Let me build the audit... Fixable to 35-37/40 with targeted edits...
+7. User: Let me read both files carefully.Now I have the exact picture... Three things still open — all are under 5 minutes each: Cell 12 one word, Cell 17 delete 4 lines, Cell 24 add one sentence. Remove the png save code line....
