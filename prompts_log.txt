@@ -1,0 +1,31 @@
+1. User initial prompt:
+
+The task I need you to solve is the following:
+╔══════════════════════════════════════════════════════════════════════╗
+║         STAI205 END-TERM EXAMINATION — AGENT EXECUTION PROMPT       ║
+║   Machine Learning & Algorithms 2 · Vijaybhoomi University          ║
+║   Dataset: MathE Platform · UCI ML Repository ID 1031               ║
+║   Target: 40 / 40  |  5 Rubric Criteria × 8 pts each               ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+[Full detailed prompt outlining 9 sections for a Jupyter Notebook, specific constraints (R1-R5 rubrics), algorithms (GMM, GBM, XGBoost), exact dataset, exact feature engineering steps, hyperparameter requirements, mathematical justification markdowns, and anti-leakage strict rules.]
+
+Note: The code should be simple and understandable, Don't make it complex !!!
+
+2. Model requested clarification:
+Hello! Before I create the plan and start writing the code, I want to make absolutely sure I have crystal clear clarity on your expectations, as requested. I have read through the extremely detailed rubric and requirements. To ensure perfection, I have a few clarifying questions:
+1. Student Name...
+2. Execution & Verification...
+3. Prompts Log...
+4. Simplicity vs. Requirements...
+5. Environment Constraints...
+
+3. User response:
+Short answers:
+1. Name: Rudra Patel — Registration: 2024SEPVUGP0037
+2. Execution: Yes — actually run it in the sandbox, populate all outputs, generate all PNGs, verify zero errors. Submit a notebook with live outputs, not empty cells.
+3. Prompts log: Log this entire conversation thread chronologically — each message I sent to you counts as one prompt entry. Simple numbered format, no special structure needed.
+4. Simplicity: Strict adherence to rubric algorithms (GMM, GBM, XGBoost, GridSearchCV, PCA) but keep code flat — no custom classes, no nested functions, no decorators. One thing per cell, plain variable names, inline comments only.
+5. Versions: Latest stable available in the sandbox — no pinned versions. Just install and go.
+Now build it. Start with the notebook.
+OR You can use VS Code Environment to run this!!!
