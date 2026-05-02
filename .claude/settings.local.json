@@ -1,0 +1,8 @@
+{
+  "prefersReducedMotion": false,
+  "permissions": {
+    "allow": [
+      "mcp__ide__executeCode"
+    ]
+  }
+}
