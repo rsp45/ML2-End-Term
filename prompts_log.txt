@@ -29,3 +29,6 @@ Short answers:
 5. Versions: Latest stable available in the sandbox — no pinned versions. Just install and go.
 Now build it. Start with the notebook.
 OR You can use VS Code Environment to run this!!!
+
+4. User follow-up prompt:
+Analyse these and make changes accordingly !! keep the code simple don't alter code till cell 35. Modify the Markdowns & Comments keep them concise , simple and understandable!!! Also check what can be the best number of cllusters !!!

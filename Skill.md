@@ -122,9 +122,9 @@ low-accuracy/high-volume (persistent), high advanced/low accuracy (overconfident
 These cohorts directly inform personalised learning paths on the MathE platform.
 
 **Baseline:** KMeans (k=3, random_init)  
-**Ensemble:** Gaussian Mixture Model (GMM) — soft probabilistic assignment  
+**Ensemble:** Agglomerative Clustering (Ward linkage) 
 **Tuning:** Silhouette score + Elbow method for k selection  
-**Metric:** Silhouette Score, Davies-Bouldin Index, Calinski-Harabasz Index
+**Metric:** Silhouette Score
 
 ### Problem 2 · CLASSIFICATION
 **Task:** Predict whether a student's answer will be Correct (0) or Incorrect (1).
@@ -145,7 +145,7 @@ keyword_count          ← number of keywords associated with question
 ```
 
 **Baseline:** Logistic Regression (C=1.0, max_iter=1000)  
-**Ensemble:** Gradient Boosting Classifier (GBM)  
+**Ensemble:** Gradient Boosting Classifier (GBM) , Random forest 
 **Tuning:** GridSearchCV on n_estimators, max_depth, learning_rate  
 **Metric:** F1-score (weighted, due to class imbalance), ROC-AUC, Precision-Recall
 
@@ -166,7 +166,7 @@ dominant_topic        ← mode of Math_Topic per student (encoded)
 ```
 
 **Baseline:** Linear Regression (OLS)  
-**Ensemble:** XGBoost Regressor  
+**Ensemble:** XGBoost Regressor  , Random forest regressor 
 **Tuning:** RandomizedSearchCV on n_estimators, max_depth, learning_rate, subsample  
 **Metric:** RMSE, MAE, R² — all three reported and explained
 
